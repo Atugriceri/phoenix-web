@@ -634,6 +634,67 @@ footer ul li {
         height: 400px;
     }
 
+    .cardGray, .cardRed {
+        margin-bottom: 3rem;
+        padding: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .card-title, .red-title {
+        margin-top: 2rem;
+        font-size: 16px;
+    }
+
+    .card-button, .white-button {
+        margin-bottom: 2rem;
+    }
+
+    .jumbotron p {
+        font-size: 1rem;
+    }
+
+    .send-button {
+        padding: 0.3rem 0.8rem;
+    }
+
+    .form-control {
+        margin-top: 1rem;
+    }
+
+    .contact-links {
+        padding: 0 !important;
+    }
+
+    .contact-links li {
+        padding: 0.5rem !important;
+    }
+
+    .contact-links ul {
+        padding: 0;
+    }
+
+    .contact-links ul li a {
+        font-size: 0.9rem !important;
+    }
+
+    .footer-home {
+        margin-right: 6rem;
+    }
+
+    .footer-team {
+        margin-right: 6rem;
+        margin-top: 2rem;
+    }
+
+    .footer-about {
+        margin-top: 2rem;
+    }
+
+    .social-media-link {
+        margin-left: 45%;
+    }
+
     h3 {
         font-size: 1.5rem !important;
     }
