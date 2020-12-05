@@ -1,0 +1,708 @@
+/********** Navbar Settings Start **********/
+
+/* Subscribe Button Settings Start */
+
+.sub-btn {
+    height: 6.6rem;
+    padding: 2rem 2rem 0 2rem !important;
+    top: 0;
+    border-top-left-radius: 0% !important;
+    border-top-right-radius: 0% !important;
+    border-bottom-left-radius: 10% !important;
+    border-bottom-right-radius: 10% !important;
+    box-shadow: inset 0 1px 1px rgba(212, 212, 212, 0.8), inset 0 -1px 0px rgba(49, 49, 49, 0.678), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+    white-space: nowrap;
+    -webkit-animation: bounceInDown 900ms 200ms ease-in-out both !important;
+    -moz-animation: bounceInDown 900ms 200ms ease-in-out both !important;
+    -ms-animation: bounceInDown 900ms 200ms ease-in-out both !important;
+    -o-animation: bounceInDown 900ms 200ms ease-in-out both !important;
+    animation: bounceInDown 900ms 200ms ease-in-out both !important;
+    outline-width: 0px !important;
+    z-index: 990;
+    text-align: center;
+    line-height: 26px;
+    display: block;
+    color: rgba(248, 248, 248, 0.836) !important;
+    animation: myfirst 5s 2;
+    animation-direction: alternate;
+}
+
+.sub-btn:hover {
+    color: rgb(248, 248, 248) !important;
+    box-shadow: inset 0 1px 1px rgb(248, 248, 248), inset 0 -1px 0px rgba(121, 121, 121, 0.678), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+}
+
+.sub-btn:focus, .sub-btn:active {
+    outline: none;
+    box-shadow: inset 0 1px 1px rgb(248, 248, 248), inset 0 -1px 0px rgba(121, 121, 121, 0.678), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+}
+
+/* Subscribe Button Settings End */
+
+.fa-search {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+.fa-search {
+    font-size: 1.2rem;
+}
+
+.fa-search:hover {
+    color: #ec2027 !important;
+}
+
+.log-in-link {
+    font-size: 0.95rem !important;
+    margin-right: 0 !important;
+    padding-top: 0.65rem !important;
+}
+
+.nav-link {
+    margin: 0 1.2rem;  
+}
+
+.menu-btn, .log-in-link {
+    color: #ec2027;
+    text-decoration: none;
+}
+
+.menu-btn::after, .log-in-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ec2027;
+    transition: width .3s;
+}
+
+.nav-link:hover::after, .log-in-link:hover::after {
+    width: 100%;
+    transition: width .5s;
+}
+
+/********** Navbar Settings End **********/
+
+/********** Slogan Section Start **********/
+
+h3 {
+    font-weight: 700 !important;
+}
+
+.bg-building {
+    background-image: url(../img/building-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-building:not() {
+    display: flexbox;
+    align-self: flex-end
+}
+
+h1 {
+    font-weight: 700 !important;
+    letter-spacing: 0.2rem;
+}
+
+h2 {
+    font-weight: 700 !important;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem !important;
+    line-height: 1rem;
+}
+
+.project-link {
+    font-weight: 500 !important;
+    letter-spacing: 0.1rem;
+    line-height: 1rem;
+    font-size: 0.9rem;
+}
+
+.slogan-content {
+    height: 632px;
+}
+
+.scale-in-hor-left {
+	-webkit-animation: scale-in-hor-left 1.5s cubic-bezier(0.200, 0.400, 0.200, 0.600) both;
+	        animation: scale-in-hor-left 1.5s cubic-bezier(0.200, 0.400, 0.200, 0.600) both;
+}
+
+@-webkit-keyframes scale-in-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-hor-left {
+    0% {
+      -webkit-transform: scaleX(0);
+              transform: scaleX(0);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+      opacity: 1;
+    }
+  }
+
+.slide-right {
+    -webkit-animation: slide-right 0.6s cubic-bezier(1, 0.460, 0.450, 1) both;
+    animation: slide-right 0.6s cubic-bezier(1, 0.460, 0.450, 1) both;
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(100px);
+        transform: translateX(100px);
+    }
+    100% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
+  
+
+.language-list {
+    padding-top: 2rem;
+    padding-right: 0.4rem;
+}
+
+.language-list > li {
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
+.language-link {
+    font-size: 1.1rem;
+}
+
+.language-link:hover {
+    text-decoration: none;
+}
+
+.social-media-link > li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 2rem;
+}
+
+.social-media-link li a {
+    display: inline;
+    text-decoration: none;
+}
+
+.social-media-link > li > a > i:hover {
+    color: #ec2027 !important;
+}
+
+a > p .text-secondary {
+    text-decoration: none !important;
+}
+
+/********** Slogan Section End **********/
+
+/********** Offer Section Start **********/
+
+.bar {
+    width: 90px;
+    height: 0.3rem;
+    background-color: #ec2027;
+    margin: 0.6rem 1rem;
+}
+
+.offer {
+    border-right: 3px solid #ec2027;
+    height: 5rem;
+    box-shadow: inset 0 0 0 0 rgb(red, green, blue);
+    transition: ease-out 0.5s;  
+}
+
+.offer:hover {
+    box-shadow: inset -500px 0 0px #ec2027;
+    transition: ease-out 1.5s;
+    transform: translateX(10%);
+    color: #fafafa;
+}
+
+
+/********** Offer Section End **********/
+
+/********** About & Projects Section Start **********/
+
+.bar-longer {
+    width: 20%;
+    height: 0.3rem;
+    background-color: #ec2027;
+    margin: 0.6rem 1rem;
+}
+
+.staff-img {
+    top: 46.2%;
+    left: 32%;
+}
+
+.company-text > p {
+    line-height: 2rem;
+    letter-spacing: 0.09rem;
+}
+
+th {
+    width: 5rem !important;
+}
+
+.numbers {
+    letter-spacing: 0.3rem;
+    font-size: 2.6rem !important;
+    font-weight: 700 !important;
+}
+
+.see-all {
+    font-size: 0.9rem;
+    margin-bottom: 38%;
+}
+
+.projects-img {
+    top: 161rem;
+    left: 5.4rem;
+    position: absolute;
+    z-index: 99999;
+}
+
+.clock-tower-img {
+    height: 750px !important;
+}
+
+.see-all-link {
+    padding-right: 10rem;
+}
+
+/********** About & Projects Section End **********/
+
+/********** Pricing Section Start **********/
+
+.card {
+    position: relative;
+    min-width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 0;
+    margin: 0 39px;
+    padding: 40px 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.279);
+    transition: .5s;
+}
+
+.card:hover {
+    transform:scale(1.1);
+}
+
+.cardGray, .cardGray .title .fa {
+    background: linear-gradient(-45deg, #d3d3d3, #c9c8c8);
+}
+
+.cardRed, .cardRed .title .fa  {
+    background: linear-gradient(-45deg, #EF4349, #EF4349);
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    z-index: 1;
+    transform: skewY(-10deg) scale(1.2);
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.card-title-2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #A6A6A6;
+}
+
+.red-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.red-title-2 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #cfcfcf8a;
+}
+  
+.title p {
+    position: relative;
+    padding: 0;
+    z-index: 2;
+}
+
+.option {
+    position: relative;
+    z-index: 2;
+}
+
+.option ul {
+    margin: 0;
+    padding: 0;
+}
+
+.option ul li {
+    margin: 0 0 10px;
+    padding: 0;
+    padding-bottom: 1rem;
+    list-style-position: inside;
+    color: #060606;
+    font-size: 0.9rem;
+}
+
+.card-button {
+    display: block;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(78, 78, 78, 0);
+    border: 0.1rem solid #ec2027;
+    color: #060606;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto 0;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.277);
+}
+
+.white-button {
+    display: block;
+    position: relative;
+    z-index: 2;
+    background-color: #fafafa;
+    color: #060606;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto 0;
+    line-height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0,0,0, .277);
+}
+
+.red-card-text ul li {
+    color: #d3d3d3;
+}
+
+/********** Pricing Section End **********/
+
+/********** Method Section Start **********/
+
+.red-bg {
+    background: linear-gradient(90deg, #EF4349 60%, #ef434900 40%);
+    padding: 0.3rem 0;
+}
+
+.method-td {
+    margin-right: 10rem !important;
+    width: 33rem;
+    font-weight: 700;
+    vertical-align: auto;
+}
+
+.method-table {
+    margin-left: 5rem;
+}
+
+.method-numbers {
+    letter-spacing: 0.1rem;
+    font-size: 2.8rem !important;
+    font-weight: 700 !important;
+}
+
+/********** Method Section Start End **********/
+
+/********** About and Media Section Start **********/
+
+.img-caption-1 {
+    z-index: 99;
+    color: #fafafa;
+    text-shadow: 3px 2px 3px #000000;
+    top: 30%;
+    left: 10%;
+}
+
+.img-caption-1 h5 {
+    font-size: 16px !important;
+    margin-bottom: 0;
+}
+
+.img-caption-1 p {
+    font-size: 14px !important;
+}
+
+.figure-img {
+    z-index: 92;
+}
+
+.img-caption-2 {
+    z-index: 99;
+    color: #fafafa;
+    text-shadow: 3px 2px 3px #000000;
+    top: 78%;
+    left: 10%;
+}
+
+.img-caption-2 h5 {
+    font-size: 16px !important;
+    margin-bottom: 0;
+}
+
+.img-caption-1 p {
+    font-size: 14px !important;
+}
+
+.figure-img {
+    z-index: 93;
+}
+
+.about-title {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.about-text {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/********** About and Media Section End **********/
+
+/********** Testimonials Start **********/
+
+.customer-name {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    padding-top: 0.8rem;
+}
+
+.customer-status {
+    color: #d3d3d3;
+    letter-spacing: 0.1rem;
+}
+
+.testimonial-text {
+    color: #d3d3d3;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.testimonials-card {
+    border-bottom: 0.2rem solid #EF4349 !important;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+/********** Testimonials End **********/
+
+/********** Contact Form Start **********/
+
+.jumbotron {
+    padding-left: 7rem !important;
+}
+
+input {
+    border: 0 !important;
+    background-color: transparent !important;
+    border-bottom: 0.1rem solid #d3d3d3 !important;
+    border-radius: 0 !important;
+}
+
+.send-button {
+    background-color: #d3d3d3;
+    padding: 1rem 4rem;
+    border: 0;
+    margin-top: 1rem;
+}
+
+.send-button:hover {
+    background-color: #EF4349;
+    color: #d3d3d3;
+}
+
+.contact-links ul li {
+    list-style-type: none;
+    border-left: 0.5rem solid #EF4349;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.contact-links ul li a {
+    font-size: 18px !important;
+    text-decoration: none !important;
+    color: #060606;
+}
+
+.contact-links ul li a:hover {
+    color: #5c5c5c;
+}
+
+.contact-links ul li a i {
+    padding-right: 1rem;
+}
+
+.contact-links ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    padding: 2.6rem 0;
+}
+
+.contact-links {
+    border-radius: 0 !important;
+    padding-left: 5rem !important;
+    padding-right: 0 !important;
+}
+
+.contact-row {
+    margin-left: 7rem !important;
+    margin-bottom: 7rem !important;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    margin-bottom: 0 !important;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+/********** Contact Form End **********/
+
+/********** Footer Start **********/
+
+footer ul li {
+    margin: 0.5rem 0;
+}
+
+/********** Footer End **********/
+
+
+@media screen and (max-width: 600px) {
+    .bg-building {
+        background-image: url(../img/building-01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+    }
+
+    h3 {
+        font-size: 1.5rem !important;
+    }
+
+    .clock-tower-img {
+        width: 100%;
+    }
+
+    th {
+        font-size: 1.2rem !important;
+    }
+
+    tr {
+        font-size: 0.8rem !important;
+    }
+
+    .figure-img {
+        width: 100%;
+    }
+
+    .fa-5x {
+        font-size: 4rem !important;
+    }
+
+    .testimonial-text {
+        font-size: 0.7rem;
+        padding-top: 0;
+    }
+
+    .testimonial-body {
+        padding: 0 auto !important;
+        text-align: center;
+    }
+
+    .customer-name {
+        font-size: 1rem;
+    }
+
+    .customer-status {
+        font-size: 1rem;
+    }
+
+    .customer-img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .img-caption-1 {
+        top: 33%;
+    }
+
+    .img-caption-2 {
+        top: 85%;
+    }
+
+    .jumbotron {
+        padding: 2rem 2rem !important;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .see-all {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+    
+    .projects-img {
+        position: unset;
+    }
+    
+}
