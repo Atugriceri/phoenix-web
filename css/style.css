@@ -211,7 +211,7 @@ h2 {
 .social-media-link > li {
     list-style-type: none;
     display: inline;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 .social-media-link li a {
@@ -293,7 +293,7 @@ th {
     top: 161rem;
     left: 5.4rem;
     position: absolute;
-    z-index: 99999;
+    z-index: 19;
 }
 
 .clock-tower-img {
@@ -302,6 +302,60 @@ th {
 
 .see-all-link {
     padding-right: 10rem;
+}
+
+.bg-text-1 {
+    font-size: 105px;
+    width: 1500px;
+    padding-top: 0;
+    transform: rotate(90deg);
+    font-weight: 700;
+    color: #f3f2f241;
+    left: 41.3rem;
+    top: 164rem;
+    letter-spacing: 0.4rem;
+}
+
+.bg-text-2 {
+    font-size: 105px;
+    width: 1500px;
+    padding-top: 0;
+    transform: rotate(90deg);
+    font-weight: 700;
+    color: #f3f2f241;
+    left: -38rem;
+    top: 224rem;
+    z-index: 20;
+    position: absolute;
+    letter-spacing: 0.4rem;
+}
+
+.bg-text-3 {
+    font-size: 105px;
+    width: 1500px;
+    padding-top: 0;
+    transform: rotate(90deg);
+    font-weight: 700;
+    color: #dbdbdb34;
+    left: 43rem;
+    top: 279rem;
+    z-index: 20;
+    position: absolute;
+    letter-spacing: 0.4rem;
+}
+
+.bg-text-4 {
+    font-size: 105px;
+    width: 1500px;
+    padding-top: 0;
+    transform: rotate(90deg);
+    font-weight: 700;
+    color: #dbdbdb34;
+    left: -41rem;
+    top: 306rem;
+    z-index: 20;
+    position: absolute;
+    letter-spacing: 0.4rem;
 }
 
 /********** About & Projects Section End **********/
@@ -407,6 +461,9 @@ th {
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.277);
+    width: 250px;
+    height: 50px;
+    padding-top: 0.2rem;
 }
 
 .white-button {
@@ -424,6 +481,9 @@ th {
     cursor: pointer;
     text-decoration: none;
     box-shadow: 0 5px 10px rgba(0,0,0, .277);
+    width: 250px;
+    height: 50px;
+    padding-top: 0.2rem;
 }
 
 .red-card-text ul li {
@@ -479,6 +539,7 @@ th {
 
 .figure-img {
     z-index: 92;
+    height: 178px !important;
 }
 
 .img-caption-2 {
@@ -691,10 +752,6 @@ footer ul li {
         margin-top: 2rem;
     }
 
-    .social-media-link {
-        margin-left: 45%;
-    }
-
     h3 {
         font-size: 1.5rem !important;
     }
@@ -713,6 +770,7 @@ footer ul li {
 
     .figure-img {
         width: 100%;
+        height: 210px !important;
     }
 
     .fa-5x {
@@ -756,6 +814,20 @@ footer ul li {
 
     .font-weight-lighter {
         margin-top: 2rem;
+    }
+
+    .social-media-icons {
+        margin-left: 50%;
+    }
+
+    .footer-logo {
+        margin-left: 11%;
+        margin-bottom: 2rem;
+    }
+
+    .footer-home, .footer-team {
+        margin-left: 11%;
+        margin-bottom: 1rem;
     }
 
 }
